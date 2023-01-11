@@ -1,8 +1,11 @@
 <?php
 
 /**
- * Plugin name: Savior Fiverr Gig Post Filter
- * Author: Savior Team
+ * Plugin name: Custom Post Type Search & Filter
+ * Author: Dina Pal
+ * Author URI: https://dinapal.tech
+ * Description: A plugin for search and filter custom post type using custom meta query.
+ * Version: 1.0.0
  */
 
 
