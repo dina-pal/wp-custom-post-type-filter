@@ -1,0 +1,79 @@
+
+
+.search_form {
+    background: #fff;
+    padding: 35px 15px;
+}
+
+input.text_field {
+    padding: 13px 20px 13px 20px;
+    font-family: "Cairo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000000;
+    opacity: 1;
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    border-width: 1px 1px 1px 1px;
+    background: #fff;
+}
+
+.field_one {
+    width: 100%;
+}
+
+select.select_field {
+    padding: 13px 20px 13px 20px;
+    font-family: "Cairo", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #000000;
+    opacity: 1;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    border-width: 1px 1px 1px 1px;
+    background: #fff;
+}
+
+input.text_field:nth-child(1) {
+    margin-right: 10px;
+}
+
+input.text_field:nth-child(2) {
+    margin-left: 10px;
+}
+
+.field_one:not(:last-child) {
+    margin-right: 11px;
+}
+
+button#search_button {
+    padding: 13px 20px 13px 20px;
+    line-height: 25px;
+    opacity: 1;
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    border-width: 1px 1px 1px 1px;
+    margin-bottom: 15px;
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #17202D;
+}
+
+button#reset_button {}
+
+.s_row:last-child {flex-direction: column;}
+
+button#reset_button {
+    background: transparent;
+    color: #17202d;
+    border: 1px solid;
+    padding: 4px 15px;
+    line-height: 14px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
